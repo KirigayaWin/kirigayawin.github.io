@@ -27,25 +27,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let imageSource;
     if (currentDate >= week1Start && currentDate <= week1End) {
-        imageSource = "week1.jpg";
+        imageSource = "week5.jpg";
     } else if (currentDate >= week2Start && currentDate <= week2End) {
-        imageSource = "week2.jpg";
-    } else if (currentDate >= week3Start && currentDate <= week3End) {
-        imageSource = "week3.jpg";
-    } else if (currentDate >= week4Start && currentDate <= week4End) {
-        imageSource = "week4.jpg";
-    } else if (currentDate >= week5Start && currentDate <= week5End) {
-        imageSource = "week5.jpg";
-    } else if (currentDate >= week6Start && currentDate <= week6End) {
         imageSource = "week1.jpg";
-    } else if (currentDate >= week7Start && currentDate <= week7End) {
+    } else if (currentDate >= week3Start && currentDate <= week3End) {
         imageSource = "week2.jpg";
-    } else if (currentDate >= week8Start && currentDate <= week8End) {
+    } else if (currentDate >= week4Start && currentDate <= week4End) {
         imageSource = "week3.jpg";
-    } else if (currentDate >= week9Start && currentDate <= week9End) {
+    } else if (currentDate >= week5Start && currentDate <= week5End) {
         imageSource = "week4.jpg";
-    } else if (currentDate >= week10Start && currentDate <= week10End) {
+    } else if (currentDate >= week6Start && currentDate <= week6End) {
         imageSource = "week5.jpg";
+    } else if (currentDate >= week7Start && currentDate <= week7End) {
+        imageSource = "week1.jpg";
+    } else if (currentDate >= week8Start && currentDate <= week8End) {
+        imageSource = "week2.jpg";
+    } else if (currentDate >= week9Start && currentDate <= week9End) {
+        imageSource = "week3.jpg";
+    } else if (currentDate >= week10Start && currentDate <= week10End) {
+        imageSource = "week4.jpg";
     } else {
         imageSource = defaultImage;
     }
