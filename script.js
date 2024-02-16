@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let week2Start = new Date('2024-02-03');
     let week2End = new Date('2024-02-09');
     let week3Start = new Date('2024-02-10');
-    let week3End = new Date('2024-02-16');
+    let week3End = new Date('2024-02-17');
     let week4Start = new Date('2024-02-17');
     let week4End = new Date('2024-02-23');
     let week5Start = new Date('2024-02-24');
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
         imageSource = "week5.jpg";
     } else if (currentDate >= week2Start && currentDate <= week2End) {
         imageSource = "week1.jpg";
-    } else if (currentDate >= week3Start && currentDate <= week3End) {
+    } else if (currentDate >= week3Start && currentDate < week3End) {
         imageSource = "week2.jpg";
     } else if (currentDate >= week4Start && currentDate <= week4End) {
         imageSource = "week3.jpg";
