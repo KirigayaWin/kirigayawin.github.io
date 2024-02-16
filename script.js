@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let week2Start = new Date('2024-02-03');
     let week2End = new Date('2024-02-09');
     let week3Start = new Date('2024-02-10');
-    let week3End = new Date('2024-02-17');
+    let week3End = new Date('2024-02-16');
     let week4Start = new Date('2024-02-17');
     let week4End = new Date('2024-02-24');
     let week5Start = new Date('2024-02-24');
