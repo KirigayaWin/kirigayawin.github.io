@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let week10End = new Date('2024-04-05');
 
 
-    let defaultImage = "week1.jpg";
+    let defaultImage = "default.jpg";
 
     let imageSource;
     if (currentDate >= week1Start && currentDate <= week1End) {
