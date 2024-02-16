@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let week3Start = new Date('2024-02-10');
     let week3End = new Date('2024-02-16');
     let week4Start = new Date('2024-02-17');
-    let week4End = new Date('2024-02-24');
+    let week4End = new Date('2024-02-23');
     let week5Start = new Date('2024-02-24');
-    let week5End = new Date('2024-03-02');
+    let week5End = new Date('2024-03-01');
     let week6Start = new Date('2024-03-02');
     let week6End = new Date('2024-03-09');
     let week7Start = new Date('2024-03-09');
