@@ -8,17 +8,17 @@ document.addEventListener("DOMContentLoaded", function() {
     let week3Start = new Date('2024-02-10');
     let week3End = new Date('2024-02-17');
     let week4Start = new Date('2024-02-17');
-    let week4End = new Date('2024-02-23');
+    let week4End = new Date('2024-02-24');
     let week5Start = new Date('2024-02-24');
-    let week5End = new Date('2024-03-01');
+    let week5End = new Date('2024-03-02');
     let week6Start = new Date('2024-03-02');
-    let week6End = new Date('2024-03-08');
+    let week6End = new Date('2024-03-09');
     let week7Start = new Date('2024-03-09');
-    let week7End = new Date('2024-03-15');
+    let week7End = new Date('2024-03-16');
     let week8Start = new Date('2024-03-16');
-    let week8End = new Date('2024-03-22');
+    let week8End = new Date('2024-03-23');
     let week9Start = new Date('2024-03-23');
-    let week9End = new Date('2024-03-29');
+    let week9End = new Date('2024-03-30');
     let week10Start = new Date('2024-03-30');
     let week10End = new Date('2024-04-05');
 
