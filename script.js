@@ -39,13 +39,13 @@ document.addEventListener("DOMContentLoaded", function() {
     } else if (currentDate >= week6Start && currentDate < week6End) {
         imageSource = "week5.jpg";
     } else if (currentDate >= week7Start && currentDate < week7End) {
-        imageSource = "week1.jpg";
-    } else if (currentDate >= week8Start && currentDate < week8End) {
         imageSource = "week2.jpg";
-    } else if (currentDate >= week9Start && currentDate < week9End) {
+    } else if (currentDate >= week8Start && currentDate < week8End) {
         imageSource = "week3.jpg";
-    } else if (currentDate >= week10Start && currentDate < week10End) {
+    } else if (currentDate >= week9Start && currentDate < week9End) {
         imageSource = "week4.jpg";
+    } else if (currentDate >= week10Start && currentDate < week10End) {
+        imageSource = "week5.jpg";
     } else {
         imageSource = defaultImage;
     }
