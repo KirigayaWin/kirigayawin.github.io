@@ -21,7 +21,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let week9End = new Date('2024-03-29');
     let week10Start = new Date('2024-03-29');
     let week10End = new Date('2024-04-05');
-
+    let week11Start = new Date('2024-04-05');
+    let week11End = new Date('2024-04-12');
+    let week12Start = new Date('2024-04-12');
+    let week12End = new Date('2024-04-19');
 
     let defaultImage = "default.jpg";
 
@@ -45,6 +48,10 @@ document.addEventListener("DOMContentLoaded", function() {
     } else if (currentDate >= week9Start && currentDate < week9End) {
         imageSource = "week4.jpg";
     } else if (currentDate >= week10Start && currentDate < week10End) {
+        imageSource = "week3.jpg";
+    } else if (currentDate >= week11Start && currentDate < week11End) {
+        imageSource = "week4.jpg";    
+    } else if (currentDate >= week12Start && currentDate < week12End) {
         imageSource = "week5.jpg";
     } else {
         imageSource = defaultImage;
