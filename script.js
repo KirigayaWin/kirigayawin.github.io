@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let week13Start = new Date('2024-04-26');
     let week13End = new Date('2024-05-03');
 
+    
     let defaultImage = "default.jpg";
 
     let imageSource;
